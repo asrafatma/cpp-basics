@@ -1,0 +1,5 @@
+# Ignore the central bin directory
+bin/
+
+# Ignore all executable files regardless of where they are created
+*.exe
