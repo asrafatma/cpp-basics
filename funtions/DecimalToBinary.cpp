@@ -21,5 +21,7 @@ int main(){
     int dec;
     cout << "Enter the decimal number: ";
     cin >> dec;
+
+    int bin = decimalToBinary(dec);
     return 0;
 }
