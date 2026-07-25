@@ -19,5 +19,10 @@ int binaryToDecimal(int bin){
 
 int main(){
     cout << "---Binary To Decimal---" << endl;
+
+    int bin;
+    cout << "Enter the binary number: " << endl;
+    cin >> bin;
+    
     return 0;
 }
