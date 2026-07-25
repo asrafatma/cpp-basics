@@ -2,16 +2,17 @@
 using namespace std;
 
 int decimalToBinary(int dec){
-    int ans = 0
-    int pow = 1;
+    if (dec == 0) return 0;
+
+    long long ans = 0;
+    long long power = 1;
 
     while(dec > 0){
-
-        int rem = dec % 2;
+        int remainder = dec % 2;
         dec = dec / 2;
 
-        ans += rem * pow;
-        pow = pow * 10;
+        ans += (remainder * power);
+        power = power * 10;
     }
     return ans;
 }
@@ -22,6 +23,8 @@ int main(){
     cout << "Enter the decimal number: ";
     cin >> dec;
 
-    int bin = decimalToBinary(dec);
+    long long bin = decimalToBinary(dec);
+
+    cout << "The binary equivalent of "  << dec << " is " << bin << "." << endl;
     return 0;
 }
