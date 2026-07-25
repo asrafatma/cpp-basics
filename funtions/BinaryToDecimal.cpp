@@ -23,6 +23,8 @@ int main(){
     int bin;
     cout << "Enter the binary number: " << endl;
     cin >> bin;
-    
+
+    int dec = binaryToDecimal(bin);
+    cout << "The decimal equivalent of "  << bin << " is " << dec << "." << endl;
     return 0;
 }
