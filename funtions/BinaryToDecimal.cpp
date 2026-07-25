@@ -2,18 +2,19 @@
 using namespace std;
 
 int binaryToDecimal(int bin){
-    if(bin == 0) return 0;
+    if (dec == 0) return 0;
 
-    int ans = 0;
-    int power = 1;
+    long long ans = 0;
+    long long power = 1;
 
-    while(bin > 0){
-        int rem = bin % 2;
-        bin = bin /10;
+    while (dec > 0) {
+        int rem = dec % 2;
+        dec = dec / 2;
 
-        ans = (rem * power);
-        power *= 2;
+        ans += (rem * power);
+        power *= 10;
     }
+
     return ans;
 }
 
