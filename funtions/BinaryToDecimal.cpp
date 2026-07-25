@@ -19,13 +19,12 @@ int binaryToDecimal(int bin){
 }
 
 int main(){
-    cout << "---Binary To Decimal---" << endl;
+    int dec;
+    cout << "Enter the decimal number: ";
+    cin >> dec;
 
-    int bin;
-    cout << "Enter the binary number: " << endl;
-    cin >> bin;
+    long long bin = decimalToBinary(dec);
 
-    int dec = binaryToDecimal(bin);
-    cout << "The decimal equivalent of "  << bin << " is " << dec << "." << endl;
+    cout << "The binary equivalent of " << dec << " is " << bin << "." << endl;
     return 0;
 }
