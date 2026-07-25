@@ -17,5 +17,9 @@ int decimalToBinary(int dec){
 }
 int main(){
     cout << "---Decimal To Binary---" << endl;
+
+    int dec;
+    cout << "Enter the decimal number: ";
+    cin >> dec;
     return 0;
 }
