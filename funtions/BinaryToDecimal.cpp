@@ -6,6 +6,15 @@ int binaryToDecimal(int bin){
 
     int ans = 0;
     int power = 1;
+
+    while(bin > 0){
+        int rem = bin % 2;
+        bin = bin /10;
+
+        ans = (rem * power);
+        power *= 2;
+    }
+    return ans;
 }
 
 int main(){
