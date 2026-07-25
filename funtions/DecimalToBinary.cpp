@@ -9,8 +9,11 @@ int decimalToBinary(int dec){
 
         int rem = dec % 2;
         dec = dec / 2;
-        
+
+        ans += rem * pow;
+        pow = pow * 10;
     }
+    return ans;
 }
 int main(){
     cout << "---Decimal To Binary---" << endl;
