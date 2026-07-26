@@ -9,7 +9,6 @@ int main(){
     double celsius = 0.0;
 
     cout << "Enter the temperature in Celcius: " << endl;
-    cin >> celsius;
 
     if (cin >> celsius) {
         double fahrenheit = celsiusToFahrenheit(celsius);
