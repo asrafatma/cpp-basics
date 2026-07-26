@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-double CelciusToFahrenheit(double c){
+double celsiusToFahrenheit(double celsius){
     return (celsius * 9.0 / 5.0) + 32.0;
 }
 
@@ -11,7 +11,7 @@ int main(){
     cout << "Enter the temperature in Celcius: " << endl;
     cin >> celsius;
 
-    if (celsius >> celsius) {
+    if (cin >> celsius) {
         double fahrenheit = celsiusToFahrenheit(celsius);
         cout << celsius << "°C is equal to " << fahrenheit << "°F\n";
     } else {
