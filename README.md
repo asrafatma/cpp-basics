@@ -125,81 +125,16 @@ Stores compiled executable files generated while testing programs locally.
 
 > Compiled files should normally remain excluded from Git through the `.gitignore` file.
 
----
+### `functions`
 
-## 🗺️ Suggested Functions Roadmap
+Contains programs focused on writing reusable and organised code with functions.
 
-The current `funtions/conversion` folder can be expanded gradually with the following subfolders:
+#### Conversion Functions
 
-```text
-funtions/
-├── basics/
-├── mathematics/
-├── parameters/
-├── overloading/
-├── arrays/
-├── strings/
-├── recursion/
-└── conversion/
-```
-
-Suggested programs include:
-
-### Basic Functions
-
-- `SimpleFunction.cpp`
-- `GreetingFunction.cpp`
-- `AddTwoNumbers.cpp`
-- `EvenOddFunction.cpp`
-- `MaximumOfTwo.cpp`
-- `MaximumOfThree.cpp`
-- `CalculatorUsingFunctions.cpp`
-
-### Mathematical Functions
-
-- `FactorialFunction.cpp`
-- `PrimeNumberFunction.cpp`
-- `PowerFunction.cpp`
-- `GreatestCommonDivisor.cpp`
-- `LeastCommonMultiple.cpp`
-- `FibonacciFunction.cpp`
-- `SumOfDigitsFunction.cpp`
-- `ReverseNumberFunction.cpp`
-- `PalindromeNumberFunction.cpp`
-
-### Parameters and References
-
-- `PassByValue.cpp`
-- `PassByReference.cpp`
-- `SwapUsingReference.cpp`
-- `DefaultArguments.cpp`
-- `ConstParameter.cpp`
-
-### Function Overloading
-
-- `FunctionOverloading.cpp`
-- `AreaUsingOverloading.cpp`
-- `MaximumUsingOverloading.cpp`
-
-### Array and String Functions
-
-- `ArraySumFunction.cpp`
-- `ArrayAverageFunction.cpp`
-- `ArrayMaximumFunction.cpp`
-- `LinearSearchFunction.cpp`
-- `ReverseArrayFunction.cpp`
-- `CountVowelsFunction.cpp`
-- `StringPalindromeFunction.cpp`
-
-### Recursive Functions
-
-- `RecursiveFactorial.cpp`
-- `RecursiveFibonacci.cpp`
-- `RecursivePower.cpp`
-- `RecursiveSum.cpp`
-- `RecursiveDigitSum.cpp`
-- `RecursiveReverseString.cpp`
-
+- `BinaryToDecimal.cpp` - Convert binary to decimal
+- `DecimalToBinary.cpp` - Convert decimal to binary
+- `CelsiusToFahrenheitFunction.cpp` - Convert Celsius to Fahrenheit
+- `FahrenheitToCelsiusFunction.cpp` - Convert Fahrenheit to Celsius
 ---
 
 ## 🛠️ Requirements
