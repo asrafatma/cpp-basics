@@ -10,5 +10,9 @@ int main(){
 
     cout << "Enter temperature in Fahrenheit: ";
     cin >> fahrenheit;
+
+    double celsius = fahrenheitToCelsius(fahrenheit);
+
+    cout << fahrenheit << "°F is equal to " << celsius << "°C\n";
     return 0;
 }
