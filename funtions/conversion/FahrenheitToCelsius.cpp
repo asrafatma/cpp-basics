@@ -6,5 +6,9 @@ double fahrenheitToCelsius(double fahrenheit) {
 }
 
 int main(){
+    double fahrenheit;
+
+    cout << "Enter temperature in Fahrenheit: ";
+    cin >> fahrenheit;
     return 0;
 }
