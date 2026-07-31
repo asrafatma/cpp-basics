@@ -10,6 +10,6 @@ int main(){
     cout << "Enter your username: ";
     cin >> username;
 
-
+    greetUser(username);
     return 0;
 }
