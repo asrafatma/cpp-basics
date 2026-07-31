@@ -6,5 +6,9 @@ bool isEven(int number) {
 }
 
 int main(){
+
+    int num;
+    cout << "Enter an integer: ";
+    cin >> num;
     return 0;
 }
