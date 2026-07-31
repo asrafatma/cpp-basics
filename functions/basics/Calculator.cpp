@@ -21,5 +21,14 @@ double divide(double a, double b) {
     return a / b; 
 }
 int main(){
+    int choice;
+
+    cout << "Select an operation:\n";
+    cout << "1. Addition (+)\n";
+    cout << "2. Subtraction (-)\n";
+    cout << "3. Multiplication (*)\n";
+    cout << "4. Division (/)\n";
+    cout << "Enter your choice (1-4): ";
+    cin >> choice;
     return 0;
 }
