@@ -16,5 +16,10 @@ int getMaxOfThree(int a, int b, int c) {
 }
 
 int main(){
+    int choice;
+    
+    cout << "Select an option:\n";
+    cout << "2. Find maximum of 2 numbers\n";
+    cout << "3. Find maximum of 3 numbers\n";
     return 0;
 }
