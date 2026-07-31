@@ -26,9 +26,11 @@ int main(){
 
     if (choice == 2) {
         int x, y;
-        cout << "Enter two numbers: ";
-        cin >> x >> y;
-        cout << "The maximum value is: " << getMax(x, y) << std::endl;
+        cout << "Enter the first number: ";
+        cin >> x;
+        cout << "Enter the second number: ";
+        cin >> y;
+        cout << "The maximum value is: " << getMaxOfTwo(x, y) << sendl;
     }
     return 0;
 }
