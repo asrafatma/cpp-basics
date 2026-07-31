@@ -23,5 +23,12 @@ int main(){
     cout << "3. Find maximum of 3 numbers\n";
     cout << "Enter choice (2 or 3): ";
     cin >> choice;
+
+    if (choice == 2) {
+        int x, y;
+        cout << "Enter two numbers: ";
+        cin >> x >> y;
+        cout << "The maximum value is: " << getMax(x, y) << std::endl;
+    }
     return 0;
 }
