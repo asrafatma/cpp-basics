@@ -32,5 +32,15 @@ int main(){
         cin >> y;
         cout << "The maximum value is: " << getMaxOfTwo(x, y) << sendl;
     }
+    else if (choice == 3) {
+        int a, b, c;
+        cout << "Enter the first number: ";
+        cin >> a;
+        cout << "Enter the second number: ";
+        cin >> b;
+        cout << "Enter the third number: ";
+        cin >> c;
+        std::cout << "The maximum value is: " << getMaxOfThree(a, b, c) << std::endl;
+    }
     return 0;
 }
