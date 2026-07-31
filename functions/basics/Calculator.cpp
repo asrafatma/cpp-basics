@@ -53,6 +53,8 @@ int main(){
                 cout << "Result: " << divide(num1, num2) << endl;
                 break;
         }
+    } else {
+        cout << "Invalid choice! Please select a option between 1 and 4." << endl;
     }
     return 0;
 }
