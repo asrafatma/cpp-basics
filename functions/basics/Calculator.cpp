@@ -38,6 +38,21 @@ int main(){
 
         cout << "Enter the second number: ";
         cin >> num2;
+
+        switch (choice) {
+            case 1:
+                cout << "Result: " << add(num1, num2) << endl;
+                break;
+            case 2:
+                cout << "Result: " << subtract(num1, num2) << endl;
+                break;
+            case 3:
+                cout << "Result: " << multiply(num1, num2) << endl;
+                break;
+            case 4:
+                cout << "Result: " << divide(num1, num2) << endl;
+                break;
+        }
     }
     return 0;
 }
