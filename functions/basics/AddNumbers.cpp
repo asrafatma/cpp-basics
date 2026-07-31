@@ -12,5 +12,8 @@ int main(){
 
     cout << "Enter the second number: ";
     cin >> (int)num2;
+
+    int sum = add(num1, num2);
+    cout << "The sum of " << num1 << " and " << num2 << " is: " << sum << endl;
     return 0;
 }
