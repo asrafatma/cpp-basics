@@ -21,5 +21,7 @@ int main(){
     cout << "Select an option:\n";
     cout << "2. Find maximum of 2 numbers\n";
     cout << "3. Find maximum of 3 numbers\n";
+    cout << "Enter choice (2 or 3): ";
+    cin >> choice;
     return 0;
 }
