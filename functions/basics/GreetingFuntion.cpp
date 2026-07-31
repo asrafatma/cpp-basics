@@ -6,5 +6,8 @@ void greetUser(std::string name) {
 }
 
 int main(){
+    string username;
+    cout << "Enter your username: ";
+    cin >> username;
     return 0;
 }
