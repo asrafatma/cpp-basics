@@ -30,5 +30,14 @@ int main(){
     cout << "4. Division (/)\n";
     cout << "Enter your choice (1-4): ";
     cin >> choice;
+
+    if (choice >= 1 && choice <= 4) {
+        double num1, num2;
+        cout << "Enter the first number: ";
+        cin >> num1;
+
+        cout << "Enter the second number: ";
+        cin >> num2;
+    }
     return 0;
 }
