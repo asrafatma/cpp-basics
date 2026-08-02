@@ -13,5 +13,11 @@ int main(){
     int num;
     cout << "Enter a non-negative integer: ";
     cin >> num;
+
+    if (num < 0) {
+        cout << "Factorial is not defined for negative numbers." << endl;
+    } else {
+        cout << "Factorial of " << num << " = " << calculateFactorial(num) << endl;
+    }
     return 0;
 }
