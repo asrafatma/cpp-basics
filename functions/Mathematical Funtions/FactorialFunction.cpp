@@ -10,5 +10,8 @@ long calculateFactorial(int n) {
 } 
 
 int main(){
+    int num;
+    cout << "Enter a non-negative integer: ";
+    cin >> num;
     return 0;
 }
