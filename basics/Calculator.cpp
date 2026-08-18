@@ -5,6 +5,7 @@ int main()
 {
     cout << "--- Calculator ---" << endl;
 
+    //User input
     cout << "Enter first number: ";
     double num1;
     cin >> num1;
@@ -13,6 +14,7 @@ int main()
     double num2;
     cin >> num2;
 
+    //Operations choice
     cout << "Select operations (1-4): ";
     cout << "1. Addition" << endl;
     cout << "2. Subtraction" << endl;
@@ -25,6 +27,7 @@ int main()
 
     double result;
 
+    //Operation based on user choice
     if(choice == 1)
     {
         result = num1 + num2;
