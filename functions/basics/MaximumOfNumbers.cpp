@@ -40,7 +40,7 @@ int main(){
         cin >> b;
         cout << "Enter the third number: ";
         cin >> c;
-        std::cout << "The maximum value is: " << getMaxOfThree(a, b, c) << endl;
+        cout << "The maximum value is: " << getMaxOfThree(a, b, c) << endl;
     }
     else {
         cout << "Invalid choice! Please enter either 2 or 3." << endl;
