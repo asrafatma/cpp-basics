@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     int age = 20;
     int minAge = 18;
-
+    //min age
     cout << (age >= minAge);
 
     return 0;
