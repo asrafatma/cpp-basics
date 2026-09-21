@@ -34,6 +34,7 @@ int main(){
     cout << "Enter your choice (1-4): ";
     cin >> choice;
 
+    // Perform the selected operation
     if (choice >= 1 && choice <= 4) {
         double num1, num2;
         cout << "Enter the first number: ";
@@ -42,6 +43,7 @@ int main(){
         cout << "Enter the second number: ";
         cin >> num2;
 
+        // Call the appropriate function based on user choice
         switch (choice) {
             case 1:
                 cout << "Result: " << add(num1, num2) << endl;
