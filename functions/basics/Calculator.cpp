@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+//functions for basic arithmetic operations
 double add(double a, double b) {
     return a + b; 
 }
@@ -20,6 +21,8 @@ double divide(double a, double b) {
     }
     return a / b; 
 }
+
+//main function to demonstrate the calculator
 int main(){
     int choice;
 
