@@ -17,9 +17,11 @@ int getMaxOfThree(int a, int b, int c) {
     }
 }
 
+// Main function to demonstrate the maximum of numbers
 int main(){
     int choice;
     
+    // Prompt the user to choose between finding the maximum of 2 or 3 numbers
     cout << "Select an option:\n";
     cout << "2. Find maximum of 2 numbers\n";
     cout << "3. Find maximum of 3 numbers\n";
