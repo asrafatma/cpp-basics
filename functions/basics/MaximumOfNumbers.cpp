@@ -28,6 +28,7 @@ int main(){
     cout << "Enter choice (2 or 3): ";
     cin >> choice;
 
+    // Based on the user's choice, call the appropriate function
     if (choice == 2) {
         int x, y;
         cout << "Enter the first number: ";
