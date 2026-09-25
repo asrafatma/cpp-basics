@@ -1,10 +1,12 @@
 #include <iostream>
 using namespace std;
 
+// Function to get the maximum of two numbers
 int getMaxOfTwo(int a, int b) {
     return (a > b) ? a : b;
 }
 
+// Function to get the maximum of three numbers
 int getMaxOfThree(int a, int b, int c) {
     if (a >= b && a >= c) {
         return a;
