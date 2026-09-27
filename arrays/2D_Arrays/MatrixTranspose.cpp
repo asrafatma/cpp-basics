@@ -25,6 +25,7 @@ int main() {
         cout << endl;
     }
 
+    //logic for finding transpose of the matrix 
     cout << "The transpose of the matrix is:" << endl;
     for (int j = 0; j < cols; j++) {
         for (int i = 0; i < rows; i++) {
