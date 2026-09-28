@@ -5,10 +5,12 @@ int main()
 {
     cout << "-- Diamond Pattern --" << endl;
 
+    // input for number of rows 
     cout << "Enter the number of rows: ";
     int rows;
     cin >> rows;
 
+    //logic to build upper half of diamond
     for(int i = 1; i <= rows; i++){
         for(int j = 1; j <= rows - i; j++){
             cout << " ";
@@ -18,6 +20,8 @@ int main()
         }
         cout << endl;
     }
+
+    //logic for building lower half of diamond(inverted triangle)
 
     for(int i = rows - 1; i >= 1; i--){
         for(int j = 1; j <= rows - i; j++){
