@@ -15,6 +15,7 @@ int main()
     int yRange;
     cin >> yRange;
 
+    //using nested loop to print the coordinates in ordered pair form
     for(int i = 1; i <= xRange; i++){
         for(int j = 1; j <= yRange; j++){
             cout << "(" << i << ", " << j << ") ";
