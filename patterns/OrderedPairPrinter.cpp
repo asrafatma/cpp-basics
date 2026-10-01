@@ -5,6 +5,7 @@ int main()
 {
     cout << "--- Ordered Pair Printer ---" << endl;
 
+    //taking input for x coordinate
     cout << "Enter the range of x: ";
     int xRange;
     cin >> xRange;
