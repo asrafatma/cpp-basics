@@ -10,6 +10,7 @@ int main()
     int xRange;
     cin >> xRange;
 
+    //taking input for y coordinate
     cout << "Enter the range of y: ";
     int yRange;
     cin >> yRange;
