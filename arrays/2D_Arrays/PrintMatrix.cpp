@@ -9,6 +9,7 @@ int main() {
     cout << "Enter the number of columns: ";
     cin >> cols;
 
+//taking user input for elements of the matrix 
     int matrix[rows][cols];
     cout << "Enter the elements of the matrix:" << endl;
     for (int i = 0; i < rows; i++) {
