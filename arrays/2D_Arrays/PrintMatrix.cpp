@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+//taking input for number of rows and columns of the matrix 
     int rows, cols;
     cout << "Enter the number of rows: ";
     cin >> rows;
